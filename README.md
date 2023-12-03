@@ -153,9 +153,9 @@ Copy the output record from the mint transition and paste it into the `./inputs/
 
 ➡️  Outputs Transfer
 
+```
 My output: ![image](https://github.com/aabdel0181/aleo-deploy-workshop/assets/68669398/2820ddfd-5817-495c-bf4f-cdde4d566375)
 
-```
 
 You can see here, one account now has 90 tokens and the other has 10, meaning we succesfully transfered 10 tokens.
 
