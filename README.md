@@ -136,14 +136,8 @@ Let's make sure that our program is working by running the following commands:
 1. Does it build? `leo build`
    `Leo ✅ Compiled 'main.leo' into Aleo instructions`
 2. Can we mint tokens? `leo run mint`
-   You should see the following output:
+   Result: ![image](https://github.com/aabdel0181/aleo-deploy-workshop/assets/68669398/32d4f7ab-d288-4c4a-84d9-2fd76799180c)
 
-```
-{
-  owner: aleo102nryeeun6da4atqggu0q9aj5cqem7tpjzvce4nc88yzu29n8sgs9qelp7.private,
-  balance: 100u32.private,
-  _nonce: 292936196563333932009136915121914006898609101920119023221288671394356999564group.public
-}
 ```
 
 Copy the output record from the mint transition and paste it into the `./inputs/project_name.in` file under the `[transfer]` section. Be sure to remove the `.private` and `.public` suffixes.
@@ -157,18 +151,10 @@ Copy the output record from the mint transition and paste it into the `./inputs/
 
  •  'deploy_workshop.aleo/transfer' - 4,075 constraints (called 1 time)
 
-➡️  Outputs
+➡️  Outputs Transfer
 
- • {
-  owner: aleo1yn6halw6astkc8jsl88sukelef3e8xrawugfjtx7kjcuuxdm6spsdtc249.private,
-  balance: 10u32.private,
-  _nonce: 3050046340461200467640466967043652446168052649619713936697821365575779437863group.public
-}
- • {
-  owner: aleo102nryeeun6da4atqggu0q9aj5cqem7tpjzvce4nc88yzu29n8sgs9qelp7.private,
-  balance: 90u32.private,
-  _nonce: 7955845234401838954345597221810328519950488237684582098690500295625246536712group.public
-}
+My output: ![image](https://github.com/aabdel0181/aleo-deploy-workshop/assets/68669398/2820ddfd-5817-495c-bf4f-cdde4d566375)
+
 ```
 
 You can see here, one account now has 90 tokens and the other has 10, meaning we succesfully transfered 10 tokens.
