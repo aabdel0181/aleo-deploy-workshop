@@ -7,11 +7,6 @@ My demo results:
    `Leo ✅ Compiled 'main.leo' into Aleo instructions`
 2. Can we mint tokens? `leo run mint`
    Result: ![image](https://github.com/aabdel0181/aleo-deploy-workshop/assets/68669398/32d4f7ab-d288-4c4a-84d9-2fd76799180c)
-
-```
-
-Copy the output record from the mint transition and paste it into the `./inputs/project_name.in` file under the `[transfer]` section. Be sure to remove the `.private` and `.public` suffixes.
-
 3. Can we transfer tokens? `leo run transfer`
 
 ```craigjohnson@home deploy_workshop % leo run transfer
