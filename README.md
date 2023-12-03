@@ -12,12 +12,7 @@ My demo results:
 ```craigjohnson@home deploy_workshop % leo run transfer
        Leo ✅ Compiled 'main.leo' into Aleo instructions
 
-⛓  Constraints
-
- •  'deploy_workshop.aleo/transfer' - 4,075 constraints (called 1 time)
-
 ➡️  Outputs Transfer
-
 ```
 My output: ![image](https://github.com/aabdel0181/aleo-deploy-workshop/assets/68669398/2820ddfd-5817-495c-bf4f-cdde4d566375)
 
